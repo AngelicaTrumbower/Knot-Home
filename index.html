@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="decors.js"></script>
+  </head>
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="nav__container">
+          <img class="logo" src="./Macrame/logo.jpg"/>
+          <ul class="nav__links">
+            <li><a href="#" class="nav__link">Home</a></li>
+            <li><a href="#" class="nav__link no-cursor">Contact</a></li>
+            <li><a href="#explore" class="nav__link nav__link--primary">Shop</a></li>
+          </ul>
+        <button class="btn__menu"onclick="openMenu()"> 
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close"onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a href="#" class="menu__link"onclick="closeMenu()">Home</a>
+            </li>
+            <li class="menu__list">
+              <a href="#features" class="menu__link"onclick="closeMenu()">Decor</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link no-cursor"onclick="closeMenu()">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+      <header>
+        <div class=header__container>
+          <div class="header__description">
+            <h1>Elevate Your Space with Handmade Macrame Home Decor</h1>
+            <h2>Uncover Your Dream Decor in Our Macrame <span class="teal">Store</span></h2>
+            <a href="#explore"><button class="btn">Browse Store</button></a>
+          </div>
+          <figure class="header__img--wrapper">
+            <img src="./Macrame/undraw_interior_design_re_7mvn.svg" alt="">
+          </figure>
+        </div>
+      </header>
+    </section>
+
+    <Main>
+      <section id="highlights">
+        <div class="container">
+          <div class="row">
+            <h2 class="section__title">Why choose <span class="teal">Knot & Home?</span></h2>
+            <div class="highlight__wrapper">
+              <div class="highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-bolt"></i>
+                </div>
+                <h3 class="highlight__subtitle">
+                    Fast shipping
+                </h3>
+                <p class="highlight__para">
+                  Enjoy fast shipping on our home decor items, ensuring you receive your perfect pieces promptly to beautify your space without delay.
+                </p>
+                
+              </div>
+              <div class="highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-heart"></i>
+                </div>
+                <h3 class="highlight__subtitle">
+                  Handcrafted
+                </h3>
+                <p class="highlight__para">
+                  Crafted from high-quality materials and showcasing meticulous attention to detail, our handmade home decor pieces bring elegance to any living space.
+                </p>
+              </div>
+              <div class="highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-gift"></i>
+                </div>
+                <h3 class="highlight__subtitle">Unique Designs</h3>
+                                
+                <p class="highlight__para">
+                  Discover our exclusive home decor creations, each uniquely designed to elevate your living spaces with  style and charm.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="container">
+          <div class="row">
+            <h2 class="section__title">
+              Featured <span class="teal">Decor</span>
+            </h2>
+            <div class="decors">
+              <div class="decor">
+                <figure class="decor__img__wrapper">
+                  <img class="decor__img" src="./Macrame/picture frame.jpg" alt="">
+                </figure>
+                <div class="decor__title">
+                  Bohemian Photo Display with Lights and Tassels
+                </div>
+                <div class="decor__ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="decor__price">
+                  <span class="decor__price--normal">$29.00</span>$19.95
+                </div>
+              </div>
+              <div class="decor">
+                <figure class="decor__img__wrapper">
+                  <img class="decor__img" src="./Macrame/wood circles wall hang.jpg" alt="">
+                </figure>
+                <div class="decor__title">
+                  Boho Chic Wooden Disc and Leaf Wall Art with Tassels
+                </div>
+                <div class="decor__ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="decor__price">
+                  <span class="decor__price--normal">$30.00</span>$15.95
+                </div>
+              </div>
+              <div class="decor">
+                <figure class="decor__img__wrapper">
+                  <img class="decor__img" src="./Macrame/plant holders.jpg" alt="">
+                </figure>
+                <div class="decor__title">
+                  Boho Chic Macrame Plant Holder Trio
+                </div>
+                <div class="decor__ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="decor__price">
+                  <span class="decor__price--normal">$59.95</span>$19.95
+                </div>
+              </div>
+              <div class="decor">
+                <figure class="decor__img__wrapper">
+                  <img class="decor__img" src="./Macrame/LEAVES.jpg" alt="">
+                </figure>
+                <div class="decor__title">
+                  Rustic Chic Nature Leaves Hanging Display
+                </div>
+                <div class="decor__ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="decor__price">
+                  <span class="decor__price--normal">$40.00</span>$19.95
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="new-arrival">
+        <div class="container">
+          <div class="row">
+           <h2 class="section__title">New <span class="teal">Arrivals</span></h2>
+           <div class="decors">
+
+            <div class="decor">
+              <figure class="decor__img__wrapper">
+                <img class="decor__img" src="./Macrame/large wall hanging.jpg" alt="">
+              </figure>
+              <div class="decor__title">
+                Boho Tie-Dye Wall Decor
+              </div>
+              <div class="decor__ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="decor__price">
+                $39.00
+              </div>
+              </div>
+            <div class="decor">
+              <figure class="decor__img__wrapper">
+                <img class="decor__img" src="./Macrame/mountain wall hanging.jpg" alt="">
+              </figure>
+              <div class="decor__title">
+                Mountain Wall Hanging Taspestry
+              </div>
+              <div class="decor__ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="decor__price">
+                $40.00
+              </div>
+              </div>
+            <div class="decor">
+              <figure class="decor__img__wrapper">
+                <img class="decor__img" src="./Macrame/curtains.jpg" alt="">
+              </figure>
+              <div class="decor__title">
+                Bohemian Leaf Pattern Curtain
+              </div>
+              <div class="decor__ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="decor__price">
+              $24.95
+              </div>
+            </div>
+            <div class="decor">
+              <figure class="decor__img__wrapper">
+                <img class="decor__img" src="./Macrame/wristlet.jpg" alt="">
+              </figure>
+              <div class="decor__title">
+                Macrame Keychain Wristlet
+              </div>
+              <div class="decor__ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="decor__price">
+                $10.00
+              </div>
+              </div>
+            <div class="decor">
+              <figure class="decor__img__wrapper">
+                <img class="decor__img" src="./Macrame/shelf.jpg"></figure>
+              <div class="decor__title">
+                Bohemian Macrame Wall Hanging Wood Shelf
+              </div>
+              <div class="decor__ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="decor__price">
+                $18.95
+              </div>
+            </div>
+            <div class="decor">
+              <figure class="decor__img__wrapper">
+                <img class="decor__img" src="./Macrame/dream catcher moon.jpg" alt="">
+              </figure>
+              <div class="decor__title">
+                Dream Catcher Moon Wall Decor
+              </div>
+              <div class="decor__ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="decor__price">
+                $25.95
+              </div>
+              </div>
+            <div class="decor">
+              <figure class="decor__img__wrapper">
+                <img class="decor__img" src="./Macrame/tree of life wall hang.jpg" alt="">
+              </figure>
+              <div class="decor__title">
+                Tree of Life Wall Decor
+              </div>
+              <div class="decor__ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="decor__price">
+                $34.95
+              </div>
+              </div>
+            <div class="decor">
+              <figure class="decor__img__wrapper">
+                <img class="decor__img" src="./Macrame/leaves with backdrop.jpg" alt="">
+              </figure>
+              <div class="decor__title">
+                Bohemian Accent Leaf Wall Decor
+              </div>
+              <div class="decor__ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="decor__price">
+                $27.95
+              </div>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </section>
+      <section id="explore">
+        <div class="container">
+          <div class="row row__column">
+            <div class="explore__header">
+             <h2 id="explore__header--title">Explore more <span class="teal">Decor</span></h2>
+             <select id="filter" onchange="filterDecors(event)">
+              <option value="" disabled selected>Sort</option>
+              <option value="LOW_TO_HIGH">Price: Low to High</option>
+              <option value="HIGH_TO_LOW">Price: High to Low</option>
+              <option value="RATING">Rating</option>
+             </select>
+            </div>
+            <div class="explore__decor decor__loading">
+              <i class="fas fa-spinner decors__loading--spinner"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </Main>
+
+    <footer>
+      <div class="container">
+        <div class="row row__column">
+          <a href="#header">
+          <figure class="footer__logo">
+            <img src="./Macrame/logo.jpg" class="footer__logo--img" alt="">
+          </figure>
+          </a>
+          <div class="footer__list">
+            <a href="" class="footer__link">Home</a>
+            <a href="#highlights" class="footer__link">About</a>
+            <a href="#new-arrival" class="footer__link">Decor</a>
+            <a href="" class="footer__link no-cursor">Contact</a>
+          </div>
+          <div class="footer__copyright">Copyright &copy; 2024 Knot & Home</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
